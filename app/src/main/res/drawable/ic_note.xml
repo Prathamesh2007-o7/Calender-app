@@ -1,0 +1,7 @@
+<!--  res/drawable/ic_note.xml  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <!--  Pencil body  -->
+    <path android:pathData="M17.0,3.0 L21.0,7.0 L7.0,21.0 L3.0,21.0 L3.0,17.0 Z" android:strokeColor="#E8634A" android:strokeWidth="1.8" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillColor="#00000000"/>
+    <!--  Pencil tip line  -->
+    <path android:pathData="M15,5 L19,9" android:strokeColor="#E8634A" android:strokeWidth="1.8" android:strokeLineCap="round" android:fillColor="#00000000"/>
+</vector>

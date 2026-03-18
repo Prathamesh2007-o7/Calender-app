@@ -1,0 +1,23 @@
+<!--  res/values/styles.xml  -->
+<resources>
+    <!--  App theme — NoActionBar keeps the screen full-bleed  -->
+    <style name="Theme.CalendarApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_cream</item>
+        <item name="android:statusBarColor">@color/header_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/bg_cream</item>
+        <item name="colorPrimary">@color/accent_coral</item>
+    </style>
+    <!--  Compact day-of-week column label (SUN MON TUE …)  -->
+    <style name="DayNameLabel">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/day_name_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.10</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+</resources>

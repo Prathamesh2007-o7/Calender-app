@@ -1,0 +1,30 @@
+<!--  res/layout/dialog_note.xml  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/dialog_bg" android:padding="24dp">
+    <!--  Dialog header row: icon + title + date  -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="6dp">
+        <!--  Coral note icon badge  -->
+        <FrameLayout android:layout_width="38dp" android:layout_height="38dp" android:background="@drawable/note_icon_badge" android:layout_marginEnd="12dp">
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_gravity="center" android:src="@drawable/ic_note" android:tint="@color/accent_coral" android:contentDescription="Note"/>
+        </FrameLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Note" android:textColor="@color/text_dark" android:textSize="18sp" android:fontFamily="sans-serif-medium"/>
+            <TextView android:id="@+id/tvDialogDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/text_muted" android:textSize="12sp" android:fontFamily="sans-serif-light" android:layout_marginTop="1dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--  Thin coral divider  -->
+    <View android:layout_width="match_parent" android:layout_height="1.5dp" android:background="@color/accent_coral_light" android:layout_marginBottom="16dp"/>
+    <!--  Note EditText  -->
+    <EditText android:id="@+id/etNote" android:layout_width="match_parent" android:layout_height="120dp" android:hint="Write your note here…" android:textColor="@color/text_dark" android:textSize="15sp" android:fontFamily="sans-serif-light" android:background="@drawable/edittext_bg" android:padding="14dp" android:gravity="top|start" android:inputType="textMultiLine|textCapSentences" android:minLines="4" android:maxLines="6" android:scrollbars="vertical" android:layout_marginBottom="16dp"/>
+    <!--  Character counter  -->
+    <TextView android:id="@+id/tvCharCount" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0 / 200" android:textColor="@color/text_muted" android:textSize="11sp" android:fontFamily="sans-serif-light" android:gravity="end" android:layout_marginBottom="20dp" android:layout_marginTop="-10dp"/>
+    <!--  Action buttons row  -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <!--  Delete button (only shown when note exists)  -->
+        <TextView android:id="@+id/btnDeleteNote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete" android:textColor="@color/text_muted" android:textSize="14sp" android:fontFamily="sans-serif-medium" android:background="@drawable/delete_btn_bg" android:paddingStart="16dp" android:paddingEnd="16dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:visibility="gone"/>
+        <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        <!--  Cancel button  -->
+        <TextView android:id="@+id/btnCancelNote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" android:textColor="@color/text_muted" android:textSize="14sp" android:fontFamily="sans-serif-medium" android:background="@drawable/cancel_btn_bg" android:paddingStart="16dp" android:paddingEnd="16dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_marginEnd="8dp"/>
+        <!--  Save button  -->
+        <TextView android:id="@+id/btnSaveNote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" android:textColor="#FFFFFF" android:textSize="14sp" android:fontFamily="sans-serif-medium" android:background="@drawable/note_btn_bg" android:paddingStart="20dp" android:paddingEnd="20dp" android:paddingTop="10dp" android:paddingBottom="10dp"/>
+    </LinearLayout>
+</LinearLayout>

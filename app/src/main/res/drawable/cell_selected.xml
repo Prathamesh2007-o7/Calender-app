@@ -1,0 +1,8 @@
+<!--  res/drawable/cell_selected.xml  -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#60FFFFFF">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#E8634A"/>
+        </shape>
+    </item>
+</ripple>

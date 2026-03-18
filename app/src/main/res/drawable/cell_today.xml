@@ -1,0 +1,9 @@
+<!--  res/drawable/cell_today.xml  -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#40E8634A">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FDECEA"/>
+            <stroke android:width="2dp" android:color="#E8634A"/>
+        </shape>
+    </item>
+</ripple>

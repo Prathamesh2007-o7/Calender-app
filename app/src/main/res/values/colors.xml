@@ -1,0 +1,22 @@
+<!--  res/values/colors.xml  -->
+<resources>
+    <!--  Backgrounds  -->
+    <color name="bg_cream">#F7F4F0</color>
+    <color name="header_bg">#FFFFFF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <!--  Text  -->
+    <color name="text_dark">#1C1C1E</color>
+    <color name="text_muted">#8E8E93</color>
+    <color name="text_other_month">#C7C7CC</color>
+    <color name="text_sunday">#D94F3D</color>
+    <!--  Accent  -->
+    <color name="accent_coral">#E8634A</color>
+    <color name="accent_coral_light">#FDECEA</color>
+    <color name="accent_coral_ring">#E8634A</color>
+    <!--  Day name labels  -->
+    <color name="day_name_color">#AEAEB2</color>
+    <!--  Nav buttons  -->
+    <color name="nav_btn_bg">#F2EFE9</color>
+    <!--  Divider  -->
+    <color name="divider_color">#EDE9E3</color>
+</resources>
