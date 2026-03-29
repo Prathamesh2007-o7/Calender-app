@@ -8,3 +8,4 @@ This is an android app developed using java in Android Studio
 ## Tech Stack
 - Java
 - Android SDK
+:)
