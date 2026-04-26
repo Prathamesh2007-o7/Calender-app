@@ -1,5 +1,5 @@
 Calender App
-This is an android app developed using java in Android Studio
+This is an android calender app developed using java in Android Studio.
 ## Features
 - View calendar
 - Add events
